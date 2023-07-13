@@ -4,7 +4,7 @@ platform=$(uname -s)
 
 #install miniconda
 if [ $platform == "Linux" ]; then
-    if [ $(uname -m) == "arm64" ]; then
+    if [ $(uname -m) == "aarch64" ]; then
         wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh
     else
         wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
