@@ -1,4 +1,4 @@
-apt install zsh -y
+sudo apt install zsh -y
 
 export RUNZSH=yes CHSH=yes
 # 检查 curl 是否存在
